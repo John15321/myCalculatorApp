@@ -104,6 +104,10 @@
         "source": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/src/main/res/layout-land/activity_main.xml"
     },
     {
+        "merged": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/intermediates/res/merged/debug/layout-small_activity_main.xml.flat",
+        "source": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/src/main/res/layout-small/activity_main.xml"
+    },
+    {
         "merged": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
