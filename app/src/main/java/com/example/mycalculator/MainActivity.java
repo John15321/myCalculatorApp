@@ -9,7 +9,8 @@ import android.text.SpannableStringBuilder;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-//import org.mariuszgromada.math.mxparser.*;
+
+import org.mariuszgromada.math.mxparser.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -113,21 +114,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void equalsTextButtonPush(View view) {
-//        String userExp = display.getText().toString();
-//
-//        previousCalculation.setText(userExp);
-//
-//        userExp = userExp.replaceAll(getResources().getString(R.string.divideText), "/");
-//        userExp = userExp.replaceAll(getResources().getString(R.string.multiplyText), "*");
-//
-//        Expression exp = new Expression(userExp);
-//        String result = String.valueOf(exp.calculate());
-//
-//        display.setText(result);
-//        display.setSelection(result.length());
-//        !!!!!
-//        Add jdk 11 to this project module
-        display.setText("result");
+        String userExp = display.getText().toString();
+
+        previousCalculation.setText(userExp);
+
+        userExp = userExp.replaceAll(getResources().getString(R.string.divideText), "/");
+        userExp = userExp.replaceAll(getResources().getString(R.string.multiplyText), "*");
+
+        Expression exp = new Expression(userExp);
+        String result = String.valueOf(exp.calculate());
+
+        display.setText(result);
     }
 
     public void backspaceButtonPush(View view) {
@@ -142,4 +139,66 @@ public class MainActivity extends AppCompatActivity {
             display.setSelection(cursorPosition - 1);
         }
     }
+
+
+    public void trigSinButtonPush(View view) {
+        updateText("sin(");
+    }
+
+    public void trigCosButtonPush(View view) {
+        updateText("cos(");
+    }
+
+    public void trigTanButtonPush(View view) {
+        updateText("tan(");
+    }
+
+    public void trigArcSinButtonPush(View view) {
+        updateText("arcsin(");
+    }
+
+    public void trigArcCosButtonPush(View view) {
+        updateText("arccos(");
+    }
+
+    public void trigArcTanButtonPush(View view) {
+        updateText("arctan(");
+    }
+
+    public void naturalLogButtonPush(View view) {
+        updateText("ln(");
+    }
+
+    public void LogButtonPush(View view) {
+        updateText("log(");
+    }
+
+    public void squareRootButtonPush(View view) {
+        updateText("sqrt(");
+    }
+
+    public void absoluteValueButtonPush(View view) {
+        updateText("abs(");
+    }
+
+    public void piButtonPush(View view) {
+        updateText("pi");
+    }
+
+    public void eButtonPush(View view) {
+        updateText("e");
+    }
+
+    public void xSquaredButtonPush(View view) {
+        updateText("^(2)");
+    }
+
+    public void xPowerYButtonPush(View view) {
+        updateText("^(");
+    }
+
+    public void isPrimeFunctionButtonPush(View view) {
+        updateText("ispr(");
+    }
+
 }

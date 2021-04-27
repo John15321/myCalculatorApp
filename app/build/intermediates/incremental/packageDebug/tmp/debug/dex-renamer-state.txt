@@ -1,0 +1,4 @@
+#Tue Apr 27 12:31:14 CEST 2021
+base.0=/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
