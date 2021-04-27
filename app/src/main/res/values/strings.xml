@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ScientificCalculator</string>
 
-    <string name="displyHint">Enter a Value</string>
+    <string name="displayHint">Enter a Value</string>
 
     <string name="oneText">1</string>
     <string name="twoText">2</string>
