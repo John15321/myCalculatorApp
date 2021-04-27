@@ -16,12 +16,12 @@
         "source": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
-    },
-    {
         "merged": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/intermediates/res/merged/debug/drawable_clear_button_background.xml.flat",
         "source": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/src/main/res/drawable/clear_button_background.xml"
+    },
+    {
+        "merged": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
         "merged": "/home/john/Documents/Universitas/Semestris6/Apki/myCalculatorApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",

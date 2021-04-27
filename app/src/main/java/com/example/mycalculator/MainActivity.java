@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clearButtonPush(View view) {
         display.setText("");
+        previousCalculation.setText("");
     }
 
     public void equalsTextButtonPush(View view) {
@@ -125,18 +126,18 @@ public class MainActivity extends AppCompatActivity {
         String result = String.valueOf(exp.calculate());
 
         display.setText(result);
+        display.setSelection(result.length());
     }
 
     public void backspaceButtonPush(View view) {
-        int cursorPosition = display.getSelectionStart();
-
+        int cursorPos = display.getSelectionStart();
         int textLen = display.getText().length();
 
-        if (cursorPosition != 0 && textLen != 0) {
+        if (cursorPos != 0 && textLen != 0){
             SpannableStringBuilder selection = (SpannableStringBuilder) display.getText();
-            selection.replace(cursorPosition - 1, cursorPosition, "");
+            selection.replace(cursorPos-1, cursorPos, "");
             display.setText(selection);
-            display.setSelection(cursorPosition - 1);
+            display.setSelection(cursorPos-1);
         }
     }
 

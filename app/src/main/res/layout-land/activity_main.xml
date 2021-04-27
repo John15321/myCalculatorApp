@@ -167,14 +167,16 @@
             android:id="@+id/button9"
             android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/arithmetic_button_background"
             android:onClick="divideButtonPush"
             android:text="@string/divideText"
             android:textColor="@color/tanAccent"
             android:textSize="28sp"
-            app:layout_constraintTop_toBottomOf="@+id/button"
-            tools:layout_editor_absoluteX="295dp" />
+            app:layout_constraintStart_toEndOf="@+id/button12"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
 
         <Button
             android:id="@+id/button10"
@@ -223,14 +225,16 @@
             android:id="@+id/button13"
             android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/arithmetic_button_background"
             android:onClick="multiplyButtonPush"
             android:text="@string/multiplyText"
             android:textColor="@color/tanAccent"
             android:textSize="28sp"
-            app:layout_constraintTop_toBottomOf="@+id/button9"
-            tools:layout_editor_absoluteX="294dp" />
+            app:layout_constraintStart_toEndOf="@+id/button16"
+            app:layout_constraintTop_toBottomOf="@+id/button9" />
 
         <Button
             android:id="@+id/button14"
@@ -279,14 +283,16 @@
             android:id="@+id/button17"
             android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/arithmetic_button_background"
             android:onClick="subtractButtonPush"
             android:text="@string/subtractText"
             android:textColor="@color/tanAccent"
             android:textSize="28sp"
-            app:layout_constraintTop_toBottomOf="@+id/button13"
-            tools:layout_editor_absoluteX="294dp" />
+            app:layout_constraintStart_toEndOf="@+id/button19"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
 
         <Button
             android:id="@+id/button18"
@@ -320,14 +326,16 @@
             android:id="@+id/button20"
             android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/arithmetic_button_background"
             android:onClick="addButtonPush"
             android:text="@string/addText"
             android:textColor="@color/tanAccent"
             android:textSize="28sp"
-            app:layout_constraintTop_toBottomOf="@+id/button17"
-            tools:layout_editor_absoluteX="294dp" />
+            app:layout_constraintStart_toEndOf="@+id/button4"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
