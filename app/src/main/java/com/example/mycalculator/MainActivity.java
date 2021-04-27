@@ -9,6 +9,7 @@ import android.text.SpannableStringBuilder;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+//import org.mariuszgromada.math.mxparser.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -112,17 +113,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void equalsTextButtonPush(View view) {
-        // do nothing for the Text view
+//        String userExp = display.getText().toString();
+//
+//        previousCalculation.setText(userExp);
+//
+//        userExp = userExp.replaceAll(getResources().getString(R.string.divideText), "/");
+//        userExp = userExp.replaceAll(getResources().getString(R.string.multiplyText), "*");
+//
+//        Expression exp = new Expression(userExp);
+//        String result = String.valueOf(exp.calculate());
+//
+//        display.setText(result);
+//        display.setSelection(result.length());
+//        !!!!!
+//        Add jdk 11 to this project module
+        display.setText("result");
     }
 
     public void backspaceButtonPush(View view) {
-        int cursorPosition = display.getSelectionStart();a
+        int cursorPosition = display.getSelectionStart();
+
         int textLen = display.getText().length();
 
         if (cursorPosition != 0 && textLen != 0) {
             SpannableStringBuilder selection = (SpannableStringBuilder) display.getText();
-            selection.replace(cursorPosition-1, cursorPosition, "");
-
+            selection.replace(cursorPosition - 1, cursorPosition, "");
+            display.setText(selection);
+            display.setSelection(cursorPosition - 1);
         }
     }
 }
